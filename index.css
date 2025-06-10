@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
+  background: linear-gradient(to right, #f0f2f5, #dfe6e9);
   color: #333;
   margin: 0;
   padding: 0;
@@ -15,7 +16,15 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h1, h2, h3 {
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-family: 'Georgia', serif; /* or any other font */
+}
+
+
+h2, h3 {
   color: #222;
 }
 
