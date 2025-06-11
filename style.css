@@ -65,10 +65,11 @@ ul {
 }
 
 /* Icons */
-a[href*="linkedin"] i:hover {
-  color: #0077b5;
+a:link i,
+a:visited i {
+  color: #333;  /* Set to same color to prevent purple */
 }
 
-a[href*="github"] i:hover {
-  color: #171515;
+a:hover i {
+  color: #0077b5; /* Optional hover effect */
 }
