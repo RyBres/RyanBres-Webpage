@@ -33,11 +33,10 @@ h1 {
 h2 {
   position: relative;
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 1rem 0;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  font-size: 1.75rem;
 }
 
 /* Cleaner bullet points */
@@ -45,11 +44,6 @@ ul {
   padding-left: 1.25rem;
   margin-top: 0.25rem;
   margin-bottom: 1.25rem;
-}
-
-ul li {
-  line-height: 1.8;
-  margin-bottom: 0.75rem;
 }
 
 /* Bio paragraph */
