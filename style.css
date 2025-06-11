@@ -65,16 +65,16 @@ ul {
 }
 
 /* Icons */
-a[href*="linkedin"] 
-i:link,
-i:visited, 
-i:hover {
+a[href*="linkedin"]:link i,
+a[href*="linkedin"]:visited i,
+a[href*="linkedin"]:hover i,
+a[href*="linkedin"]:active i {
   color: #0077b5;
 }
 
-a[href*="github"] 
-i:link,
-i:visited, 
-i:hover {
+a[href*="github"]:link i,
+a[href*="github"]:visited i,
+a[href*="github"]:hover i,
+a[href*="github"]:active i {
   color: #171515;
 }
