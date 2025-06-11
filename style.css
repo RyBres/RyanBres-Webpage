@@ -47,21 +47,16 @@ ul {
   margin-bottom: 1.25rem;
 }
 
+ul li {
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+
 /* Bio paragraph */
 .bio {
   font-style: italic;
   margin-bottom: 2rem;
   text-align: center;
-}
-
-/* Optional headshot in corner */
-.headshot {
-  width: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 /* Icons */
