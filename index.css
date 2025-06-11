@@ -1,10 +1,9 @@
-/* General page styles */
+/* Full-page background */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: url('img/classic-windows-xp-desktop-wallpapers-v0-daignqeqwbxb1.jpg') no-repeat center center fixed;
+  font-family: Arial, sans-serif;
+  background: url('img/background-windows.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -12,34 +11,33 @@ body {
   min-height: 100vh;
 }
 
-/* Resume box (the "container") */
+/* Resume paper box */
 .container {
-  background-color: rgba(255, 255, 255, 0.95); /* slightly transparent white */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding: 2rem;
+  background-color: white;
+  padding: 3rem;
   max-width: 800px;
   width: 90%;
-  text-align: left;
-  position: relative;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
-/* Header text */
+/* Header styling */
 h1 {
-  text-align: center;
   font-size: 2.5rem;
+  text-align: center;
   margin-top: 0;
   font-family: 'Georgia', serif;
 }
 
-/* Bio */
+/* Bio paragraph */
 .bio {
   font-style: italic;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-/* Headshot image */
+/* Optional headshot in corner */
 .headshot {
   width: 100px;
   border-radius: 50%;
