@@ -63,3 +63,12 @@ ul {
   left: 20px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
+
+/* Icons */
+a[href*="linkedin"] i:hover {
+  color: #0077b5;
+}
+
+a[href*="github"] i:hover {
+  color: #171515;
+}
