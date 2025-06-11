@@ -3,12 +3,13 @@ body {
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
 .container {
   max-width: 800px;
+  text-align: center;
   margin: auto;
   padding: 2rem;
   background-color: #fff;
