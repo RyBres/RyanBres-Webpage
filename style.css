@@ -30,6 +30,10 @@ h1 {
   font-family: 'Georgia', serif;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* Cleaner bullet points */
 ul {
   padding-left: 1.25rem;
