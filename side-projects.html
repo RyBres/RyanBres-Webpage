@@ -6,11 +6,74 @@
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <title>Ryan's Webpage</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .project img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .project-description {
+      flex: 1;
+      font-size: 1.1rem;
+    }
+
+    .project h2 {
+      margin-top: 0;
+    }
+
+    .intro {
+      margin-bottom: 2rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>Placeholder! This page is a WIP.</h1>
-    
+    <h1>Selected Projects</h1>
+    <p class="intro">
+      A curated selection of technical projects spanning data science, software engineering, databases, and creative app design. Each was built to solve a specific challenge or explore a domain in-depth—from numerical analysis to AI storytelling.
+    </p>
+
+    <div class="project">
+      <img src="images/numerical.png" alt="Numerical Integration Toolbox Screenshot or Logo">
+      <div class="project-description">
+        <h2><a href="https://github.com/YourUsername/Numerical-Integration-Toolbox" target="_blank">Numerical Integration Toolbox</a></h2>
+        <p>A Python library implementing 13 different numerical integration methods, including Simpson’s Rule, Trapezoidal, and Gauss-Legendre. Built for flexibility and precision, it supports both basic and adaptive approaches for integrating complex mathematical functions.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/dataparcel.png" alt="DataParcel UI or App Screenshot">
+      <div class="project-description">
+        <h2><a href="https://github.com/YourUsername/DataParcel" target="_blank">DataParcel</a></h2>
+        <p>A desktop JavaFX application that partitions large datasets using univocity parsers. Designed for ease of use, it features real-time processing, clean file input/output workflows, and a responsive interface for non-technical users.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/newarkdb.png" alt="EER Diagram or CLI Screenshot">
+      <div class="project-description">
+        <h2><a href="https://github.com/YourUsername/Newark-IT-Shopping-System" target="_blank">Newark IT Shopping System</a></h2>
+        <p>A MySQL-backed shopping simulation with a Python CLI. Features 14 normalized tables, advanced trigger logic, sample data, and full support for customer registration, basket/checkout functionality, and sales analytics.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="images/robogenie.png" alt="RoboGenie App Screenshot or Icon">
+      <div class="project-description">
+        <h2><a href="https://github.com/YourUsername/RoboGenie" target="_blank">RoboGenie</a></h2>
+        <p>An Android fortune-telling app powered by GPT-4. Users answer quirky questions, make a wish, and receive a uniquely styled fortune. Features a pixel-art genie, bold visual design, and replayable AI-powered experiences.</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
